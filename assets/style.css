@@ -79,7 +79,7 @@ body {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
+.about-me__introduction, .about-me__introduction strong {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
@@ -97,16 +97,20 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
+.gallery {
+	display: none;
+}
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
