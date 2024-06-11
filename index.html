@@ -4,30 +4,67 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Nina Carducci - Photographe à Bordeaux</title>
-		<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Découvrez mon portfolio et contactez-moi pour vos projets photos.">
+		<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Contactez-moi pour vos projets photos.">
+		<meta name="robots" content="index, follow">
+		<meta property="og:site_name" content="Nina Carducci - Photographe à Bordeaux">
 		<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://ninacarducci.github.io/">
 		<meta property="og:image" content="https://ninacarducci.github.io/assets/images/nina.webp">
-		<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Découvrez mon portfolio et contactez-moi pour vos projets photos.">
-		<meta name="twitter:card" content="">
+		<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Contactez-moi pour vos projets photos.">
+		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux">
-		<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Découvrez mon portfolio et contactez-moi pour vos projets photos.">
+		<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les concerts, entreprises, mariages et portraits. Contactez-moi pour vos projets photos.">
 		<meta name="twitter:image" content="https://ninacarducci.github.io/assets/images/nina.webp">
+		<meta name="twitter:url" content="https://ninacarducci.github.io/">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
 
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		<link rel="stylesheet" href="./assets/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 
-		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script defer src="./assets/maugallery.js"></script>
 		<script defer src="./assets/scripts.js"></script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "LocalBusiness",
+				"name": "Nina Carducci - Photographe",
+				"image": "https://ninacarducci.github.io/assets/images/nina.png",
+				"@id": "https://ninacarducci.github.io/",
+				"url": "https://ninacarducci.github.io/",
+				"telephone": "05 56 67 78 89",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+				},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": 44.837789,
+					"longitude": -0.57918
+				},
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				},
+				"sameAs": [
+					"https://www.instagram.com/ninacarducci.photo/?hl=fr"
+				]
+			}
+			</script>
 	</head>
 
 	<body>
@@ -76,12 +113,14 @@
 			</div>
 		</header>
 
+		<main>
 		<section id="about">
 			<div class="picture left">
-				<img loading="lazy" src="./assets/images/nina.webp" alt="Nina Carducci" />
+				<img loading="lazy" src="./assets/images/nina.webp" alt="Nina Carducci"/>
 			</div>
 			<div id="about-me">
-				<h1>Nina Carducci - Photographe</h1>
+				<h1>Nina Carducci</h1>
+				<strong>Photographe à Bordeaux </strong>
 				<h2 class="about-me__title">A propos de moi</h2>
 				<p class="about-me__introduction">
 					Devenir <strong>photographe</strong> était pour moi une
@@ -173,6 +212,7 @@
 				</div>
 			</div>
 		</section>
+
 		<aside class="quote">
 			<figure>
 				<blockquote>
@@ -185,6 +225,7 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</aside>
+
 		<section id="contact">
 			<div class="container">
 				<div class="form-container">
@@ -208,5 +249,8 @@
 				</div>
 			</div>
 		</section>
+	</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</body>
 </html>
