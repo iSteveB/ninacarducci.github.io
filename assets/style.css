@@ -55,8 +55,8 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
-		padding-inline: 100px;
-		padding-block: 100px;
+	padding-inline: 100px;
+	padding-block: 100px;
 	position: relative;
 }
 
@@ -85,10 +85,10 @@ body {
 #about-me {
 	flex: 2
 }
-.about-me__title {
+.about-me__subtitle {
 	margin-top: 1em;
-	margin-bottom: 60px;
-	font-size: 30px;
+	margin-bottom: 30px;
+	font-size: 1.5rem;
 }
 .about-me__introduction, .about-me__introduction strong {
 	font-family: 'Spectral';
@@ -103,6 +103,10 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+}
+#about-me h1 ~ strong {
+	font-weight: 500;
+	font-size: 2rem;
 }
 
 #gallery {
@@ -283,7 +287,7 @@ input[type="submit"] {
 	#about, #contact .container {
 		align-items: center;
 	}
-	.about-me__title {
+	.about-me__subtitle {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
@@ -309,9 +313,15 @@ input[type="submit"] {
 		left: 0;
 		z-index: -1;
 	}
-	.about-me__title{
+
+	.about-me__title, .about-me__subtitle {
 		text-align: center;
 		margin-top: 1em;
+	}
+	#about-me h1 ~ strong {
+		display: block;
+		text-align: center;
+		font-size: 1.8rem;
 	}
 	#services .container {
 		flex-direction: column;
